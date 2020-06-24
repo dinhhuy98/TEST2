@@ -1,71 +1,79 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+﻿body {
+    font-family: tahoma;
+    color: #282828;
+    margin: 0px;
 }
 
-/* Provide sufficient contrast against white background */
-a {
-  color: #0366d6;
+.nav-bar {
+    background: linear-gradient(-90deg, #84cf6a, #16c0b0);
+    height: 60px;
+    margin-bottom: 15px;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+.product {
+    display: flex;
+    flex-flow: wrap;
+    padding: 1rem;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+img {
+    border: 1px solid #d8d8d8;
+    width: 70%;
+    margin: 40px;
+    box-shadow: 0px 0.5px 1px #d8d8d8;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  font-size: 14px;
-}
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+.product-image {
+    width: 80%;
 }
 
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+.product-image,
+.product-info {
+    margin-top: 10px;
+    width: 50%;
 }
 
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
+.color-box {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
+.cart {
+    margin-right: 25px;
+    float: right;
+    border: 1px solid #d8d8d8;
+    padding: 5px 20px;
 }
 
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+button {
+    margin-top: 30px;
+    border: none;
+    background-color: #1e95ea;
+    color: white;
+    height: 40px;
+    width: 100px;
+    font-size: 14px;
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+
+.disabledButton {
+    background-color: #d8d8d8;
+}
+
+.review-form {
+    width: 400px;
+    padding: 20px;
+    margin: 40px;
+    border: 1px solid #d8d8d8;
+}
+
+input {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 60px;
 }

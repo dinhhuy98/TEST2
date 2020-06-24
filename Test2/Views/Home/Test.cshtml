@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Test";
+}
+
+
+    <div class="nav-bar"></div>
+
+    <div id="app">
+        <div class="cart">
+            <p>Cart({{ cart.length }})</p>
+        </div>
+        <product :premium="true" v-on:add-to-cart="updateCart"></product>
+        <!-- <product-review></product-review> -->
+        <!-- <product :premium="false"></product> -->
+    </div>
+
