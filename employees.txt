@@ -1,0 +1,6 @@
+employeeID int
+empliyeeName varchar(50)
+gender int
+birthday date
+phone varchar(50)
+email varchar(50)
